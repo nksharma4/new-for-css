@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS Step-by-Step</title>
+    <style>
+        .box-1{
+            background-color: #e74c3c;
+            color:white;
+            width: 300px;
+            padding: 10px 40px;
+            border-bottom: 8px #2cc36b;
+        }
+        .box-2{
+            background-color: black;
+            color:white;
+            width:300px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .btn{
+            background-color: #f1c40f;
+            color:#2c3e50;
+            font-size: 16px;
+            border:none;
+            cursor:pointer;
+            border-radius: 20px;
+            transition: 0.5s;
+        }
+        .btn:hover{
+            background-color: #2ecc71;
+            color:white;
+        }
+        .inline-span{
+            background-color: #9b59b6;
+            color:white;
+            padding:10px;
+            display:inline-block;
+            margin-top:10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Tech Journey! 🚀</h1>
+        <p>Zero to Hero software engineering practice page.</p>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Topic 1: CSS Box Model 📦</h2>
+        
+        <div class="box-1">
+            Box 1: Internal spacing (Padding) and outline (Border).
+        </div>
+
+        <div class="box-2">
+            Box 2: External spacing (Margin) between elements.
+        </div>
+    </main>
+
+    <hr>
+
+    <section>
+        <h2>Topic 2: Selectors & Buttons 🎯</h2>
+        <p class="description">Styling interactive elements:</p>
+        <button class="btn">Click Me!</button>
+    </section>
+<hr>
+<section>
+    <h2>display property</h2>
+    <span class="inline-span">I am inline 1</span>
+    <span class="inline-span">I am inline class 2</span>
+</section>
+</body>
+</html>
